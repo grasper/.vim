@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/anti'
+let g:netrw_dirhist_2='/home/anti/.vim'
+let g:netrw_dirhist_3='/home/anti/.vim/bundle'
+let g:netrw_dirhist_4='/home/anti/.vim/bundle/tabular'
+let g:netrw_dirhist_5='/home/anti/.vim/bundle/tabular/doc'

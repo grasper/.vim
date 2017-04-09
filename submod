@@ -1,0 +1,8 @@
+#!/bin/bash
+git submodule add git@github.com:vim-airline/vim-airline.git bundle/vim-airline
+git submodule add git@github.com:vim-airline/vim-airline-themes.git bundle/vim-airline-themes
+git submodule add git@github.com:tpope/vim-surround.git bundle/vim-surround
+git submodule add git@github.com:godlygeek/tabular.git bundle/tabular
+git submodule add git@github.com:mtth/scratch.vim.git bundle/scratch.vim
+git submodule add git@github.com:SirVer/ultisnips.git bundle/ultisnips
+git submodule add git@github.com:honza/vim-snippets.git bundle/vim-snippets
