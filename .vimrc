@@ -10,6 +10,15 @@ set incsearch
 set wildmenu
 
 packadd! matchit
+
+if has("autocmd")
+	autocmd FileType ruby setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType sh setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType tex setlocal ts=2 sts=2 sw=2 expandtab
+	autocmd FileType text setlocal ts=3 sts=3 sw=3 expandtab
+	autocmd FileType python setlocal tw=79 nu expandtab
+endif
+
 "=====================================================
 " airline setting
 "=====================================================
